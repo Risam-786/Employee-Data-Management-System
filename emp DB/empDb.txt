@@ -1,0 +1,14 @@
+CREATE DATABASE vsbdb;
+USE vsbdb;
+CREATE TABLE Emp (
+    Id INT PRIMARY KEY,
+    Ename VARCHAR(100),
+    Sal FLOAT,
+    Doj DATE,
+    Dob DATE,
+    Des VARCHAR(255),
+    Dept VARCHAR(100),
+    Address VARCHAR(500),
+    Photo VARCHAR(100)
+);
+select *  from Emp;
